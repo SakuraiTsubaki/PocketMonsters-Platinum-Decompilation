@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "game": "Platinum",
+  "region": "Korea",
+  "language": "Korean",
+  "target": {"title": "POKEMON PL", "game_code": "CPUK", "rom_version_byte": 0, "file_size": 134217728, "hashes": {"md5": "e28b4ba15f1810ce26087a66cbb411ff", "sha1": "f811d9c7ab5262f593012da794c2fa81dbcdbcc1", "sha256": "51050f65776f402f86b8b2b2d3b84ab5bbe80dbec75129c86f8bd9b447f11d7b"}},
+  "arm9": {"rom_offset": 16384, "rom_size": 1061624, "load_address": 33554432, "entry_address": 33556480, "end_address": 34616056, "hashes": {"md5": "2e7c7bdf829d221fb81a8f1617161468", "sha1": "350a768bf5a5dd7faf9b04dabcc7b848f8212124", "sha256": "13a703984bd23fc7e095f52ab5d9edb2dbe48cc0de913202eceeeb855ad26b75"}},
+  "arm7": {"rom_offset": 4237312, "rom_size": 161788, "load_address": 37224448, "entry_address": 37224448, "end_address": 37386236, "hashes": {"md5": "243802b12a4e7af8ee382c59c836d67a", "sha1": "082bb349ae7d057edbbd91a07316b1402b18b803", "sha256": "77146657cd179d1cb4053d291e4da1c8bc33e611814131dc4c04bba70eb65a81"}},
+  "overlay_tables": {"arm9": {"rom_offset": 1078272, "size": 3904, "count": 122}, "arm7": {"rom_offset": 0, "size": 0, "count": 0}},
+  "addressing_note": "Addresses are observed Nintendo DS runtime/load addresses from the ROM header and overlay table; names remain address-based until independently identified."
+}
