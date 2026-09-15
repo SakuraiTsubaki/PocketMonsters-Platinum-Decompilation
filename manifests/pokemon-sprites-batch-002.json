@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "pokemon-sprites-batch-002-002-003",
+  "game": "Pocket Monsters Platinum",
+  "source_repository": "https://github.com/PokeAPI/sprites",
+  "source_commit": "2ecb4eeacd5a1718621fc30f12772e3f60d830b9",
+  "source_tree": "sprites/pokemon/versions/generation-iv/platinum",
+  "species": [
+    2,
+    3
+  ],
+  "variant_policy": "Store every standard/shiny/back/female variant that exists at the pinned upstream commit.",
+  "source_notice": "Upstream states image contents are Copyright The Pokemon Company; upstream repository is distributed under CC0 and notes third-party rights are not cleared.",
+  "verification": "External reference",
+  "files": [
+    {
+      "path": "assets/graphics/pokemon_sprites/002-ivysaur/back-shiny.png",
+      "size": 1377,
+      "sha256": "84167c9d22a750e275fdd7028b6f2091d0c2cd42331eac1a14d107d8d68e6446"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/002-ivysaur/back.png",
+      "size": 1384,
+      "sha256": "3e48afac9f66ebd40fdd4607ceda3b767c7c488d90747c68257629932dc17744"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/002-ivysaur/front.png",
+      "size": 780,
+      "sha256": "d9504d9b1db032d4f04479974a1f521d2918853d16ba88adc62bd37ca7bea782"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/002-ivysaur/shiny.png",
+      "size": 780,
+      "sha256": "0cfb63f00f7fe7ccd5240dc0bd8a1f242fb3de40c0f1124ffae9facb2a19b9ab"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/back-female.png",
+      "size": 1627,
+      "sha256": "9691ab83f8d15db56ad2036afa8945b9a272ee5ccb6a7580ab8dfd7ce1662c60"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/back-shiny-female.png",
+      "size": 1618,
+      "sha256": "d8d9ce002dbb68fed0d82a3579cc29ba9138f60ac9d116e426c01e9f5218f601"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/back-shiny.png",
+      "size": 1613,
+      "sha256": "8b2f66def2cbbdbbcf07bd8f393dda5af3d7621707010d56d31b19b045684b45"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/back.png",
+      "size": 1627,
+      "sha256": "991c63385dfe6adf8b8ea6d9024c21634b920cabb6641e14da7b9485227a23fc"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/female.png",
+      "size": 1466,
+      "sha256": "5728ee207fed6bc2df4304cb26bcbdd834427c58469dbfa2d22e5594e330f878"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/front.png",
+      "size": 1468,
+      "sha256": "28e66a809bf10388134adf35d21a61e73be803f245f6d25ca0cddf66f901cdd3"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/shiny-female.png",
+      "size": 1466,
+      "sha256": "5eb07a321fff87db534226a9e5d5b9c24de81e9282d6428580705ddf229b058a"
+    },
+    {
+      "path": "assets/graphics/pokemon_sprites/003-venusaur/shiny.png",
+      "size": 1468,
+      "sha256": "f5d576e8e851a84be00228e1755f8517f123d98aff4652e368ee42169ff6bd72"
+    }
+  ]
+}
