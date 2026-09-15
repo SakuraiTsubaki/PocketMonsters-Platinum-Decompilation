@@ -1,0 +1,36 @@
+{
+  "file_name": "포켓몬스터Pt 기라티나.nds",
+  "file_size": 134217728,
+  "hashes": {
+    "md5": "e28b4ba15f1810ce26087a66cbb411ff",
+    "sha1": "f811d9c7ab5262f593012da794c2fa81dbcdbcc1",
+    "sha256": "51050f65776f402f86b8b2b2d3b84ab5bbe80dbec75129c86f8bd9b447f11d7b"
+  },
+  "title": "POKEMON PL",
+  "game_code": "CPUK",
+  "maker_code": "01",
+  "unit_code": 0,
+  "device_type": 0,
+  "device_capacity_code": 10,
+  "rom_version": 0,
+  "autostart": 0,
+  "arm9": {"rom_offset":16384,"entry_address":33556480,"ram_address":33554432,"size":1061624},
+  "arm7": {"rom_offset":4237312,"entry_address":37224448,"ram_address":37224448,"size":161788},
+  "fnt": {"offset":4399104,"size":7427},
+  "fat": {"offset":4406784,"size":3688,"entry_count":461},
+  "arm9_overlay_table": {"offset":1078272,"size":3904},
+  "arm7_overlay_table": {"offset":0,"size":0},
+  "banner_offset":4410880,
+  "declared_rom_size":102630460,
+  "header_size":16384,
+  "header_crc_stored":9743,
+  "header_crc_calculated":9743,
+  "header_crc_match":true,
+  "nitrofs": {
+    "file_count":339,
+    "extensions":{".narc":215,".resdat":30,".bin":15,".ncgr":12,".txt":12,".nsbtx":11,".nclr":9,".cldat":7,".dat":7,".nanr":5,".ncer":4,".nscr":2,".nsbmd":2,".nsbca":2,".naix":2,".sdat":2,".atr":1,".arc":1},
+    "top_level_counts":{"data":140,"graphic":45,"poketool":35,"resource":32,"fielddata":18,"arc":14,"application":12,"battle":12,"wazaeffect":8,"demo":6,"itemtool":4,"particledata":4,"msgdata":3,"pokeanime":2,"contest":1,"debug":1,"dwc":1,"frontier":1}
+  },
+  "overlays":{"arm9_count":122,"arm7_count":0},
+  "project_identity":{"game":"Platinum","region":"Korea","language":"Korean","verification_status":"Internal identity verified; external preservation hash verification pending"}
+}
