@@ -3,9 +3,56 @@
   "target": "Pocket Monsters Platinum",
   "platform_family": "Nintendo DS",
   "generation": "Generation IV",
-  "identity_status": "unselected",
-  "release": null,
-  "region": null,
-  "revision": null,
-  "hashes": []
+  "identity_status": "identified",
+  "release": {
+    "official_title": "포켓몬스터Pt 기라티나",
+    "distribution_form": "Nintendo DS cartridge ROM image",
+    "game_code": "CPUK",
+    "header_title": "POKEMON PL",
+    "language": "Korean",
+    "input_provenance": "User-supplied local image; ROM bytes are not committed"
+  },
+  "region": "Korea",
+  "revision": {
+    "header_rom_version": 0,
+    "label": "Header ROM version 0"
+  },
+  "size_bytes": 134217728,
+  "header": {
+    "maker_code": "01",
+    "unit_code": 0,
+    "device_capacity_exponent": 10,
+    "nominal_capacity_bytes": 134217728,
+    "crc16_stored": "260f",
+    "crc16_calculated": "260f",
+    "crc16_valid": true
+  },
+  "hashes": [
+    {
+      "algorithm": "SHA-256",
+      "scope": "complete ROM",
+      "value": "51050f65776f402f86b8b2b2d3b84ab5bbe80dbec75129c86f8bd9b447f11d7b"
+    },
+    {
+      "algorithm": "SHA-1",
+      "scope": "complete ROM",
+      "value": "f811d9c7ab5262f593012da794c2fa81dbcdbcc1"
+    },
+    {
+      "algorithm": "MD5",
+      "scope": "complete ROM",
+      "value": "e28b4ba15f1810ce26087a66cbb411ff"
+    }
+  ],
+  "verification": {
+    "observed_at": "2026-09-16",
+    "tool": "SakuraiTsubaki/Decompilation tools/nds_rom_inventory",
+    "environment": "Windows 10.0.26200; PowerShell 7.6.5; Python 3.12.14",
+    "public_reference": {
+      "status": "pending",
+      "project": "pret/pokeplatinum",
+      "url": "https://github.com/pret/pokeplatinum",
+      "note": "The public project documents US Rev 0 and Rev 1 targets, not this Korean localization; independent preservation-catalog matching remains pending."
+    }
+  }
 }
