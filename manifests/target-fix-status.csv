@@ -1,0 +1,3 @@
+id,target,state,evidence,patch
+G4-UI-003,CPUK Rev 0,fixed_local,HM05 palette 358->350 verified in ARM9 item archive table,patches/hm05_defog_palette.py
+G4-BAT-018,CPUK Rev 0,fixed_local,Pursuit subscript tuple 57/18/7/43 -> 57/7/18/43 verified in member 153,patches/acid_rain_pursuit.py
