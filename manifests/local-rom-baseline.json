@@ -1,0 +1,14 @@
+{
+  "input_name": "포켓몬스터Pt 기라티나.nds",
+  "title": "POKEMON PL",
+  "game_code": "CPUK",
+  "rom_version": 0,
+  "size": 134217728,
+  "crc32": "26f01598",
+  "sha256": "51050f65776f402f86b8b2b2d3b84ab5bbe80dbec75129c86f8bd9b447f11d7b",
+  "arm9_sha256": "13a703984bd23fc7e095f52ab5d9edb2dbe48cc0de913202eceeeb855ad26b75",
+  "arm7_sha256": "77146657cd179d1cb4053d291e4da1c8bc33e611814131dc4c04bba70eb65a81",
+  "fat_file_count": 461,
+  "arm9_overlay_count": 122,
+  "arm7_overlay_count": 0
+}
