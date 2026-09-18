@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "verified",
+  "input_sha256": "51050f65776f402f86b8b2b2d3b84ab5bbe80dbec75129c86f8bd9b447f11d7b",
+  "structure_inventory": "analysis/generated/rom-structure/structure.json",
+  "tool": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "commit": "70cf09995eaf676f2481353ac0bfa5ef654bb957",
+    "path": "tools/narc_inventory.py",
+    "version": "1.0.0"
+  },
+  "command": "python tools/narc_inventory.py analyze path/to/verified.nds analysis/generated/rom-structure/structure.json --output analysis/generated/narc-inventory",
+  "outputs": {
+    "directory": "analysis/generated/narc-inventory",
+    "inventory": "analysis/generated/narc-inventory/narc-inventory.json",
+    "member_csv_shards": [
+      "analysis/generated/narc-inventory/members/narc-members-0000.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0001.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0002.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0003.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0004.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0005.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0006.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0007.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0008.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0009.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0010.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0011.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0012.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0013.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0014.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0015.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0016.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0017.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0018.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0019.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0020.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0021.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0022.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0023.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0024.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0025.csv",
+      "analysis/generated/narc-inventory/members/narc-members-0026.csv"
+    ]
+  },
+  "checks": {
+    "expected_top_level_narcs": 215,
+    "valid_top_level_narcs": 215,
+    "malformed_top_level_narcs": 0,
+    "total_members": 53565,
+    "rom_bytes_committed": false
+  }
+}
